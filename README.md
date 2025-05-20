@@ -10,8 +10,11 @@ I’m a junior software engineer, so the goal is to keep things simple, well-com
 
 
 ---article-summarizer/
+
 ├── venv/ # Python virtual-env (not tracked in Git)
+
 ├── summarizer.py # Step 1: basic agent (requests + BeautifulSoup + OpenAI)
+
 ├── .env.example # Copy to .env and paste your OpenAI key
 
 
