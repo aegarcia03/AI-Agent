@@ -1,0 +1,18 @@
+# --- Python build artifacts ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# --- Virtual-env ---
+venv/
+
+# --- Environment / config ---
+.env          # ← your OpenAI key lives here
+.env.*        # catch any variant like .env.dev
+
+# --- OS / editor cruft ---
+.DS_Store
+.idea/
+.vscode/
